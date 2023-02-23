@@ -1,0 +1,6 @@
+import nltk
+# nltk.download('punkt')
+from nltk.tokenize import word_tokenize
+
+text ='What do letters even mean? Is "S" supposed to stand for speed? And then, if so, does that mean "T" is for turbo? With the advent of electric cars, will that "turbo" reference even make sense to anyone in a decade or two? The Xiaomi 12T Pro answers none of these questions. But thats okay, because its a phone, not a human dabbling in some late night pub philosophy.\nIt might still, however, be confusing, because a lot of people seem to think the 12T Pro is the successor to the 12 Pro. The launch timeline is definitely in line with something like that, but its not true. The 12T Pro is, rather, a different take on the flagship smartphone - one much closer to the flagship killer concept, whereas the 12 Pro sans T is the all-out spec monster. Outside of China, at least, since the 12S Ultra also exists over there and takes the crown away from the Pro. Are you still following any of this? Will Xiaomi ever clean up its naming?'
+word_tokenize(text)
