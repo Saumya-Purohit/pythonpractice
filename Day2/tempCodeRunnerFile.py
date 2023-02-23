@@ -1,0 +1,1 @@
+print(f"Your total bill is {round(tbill,2)} , after splliting b/w {nu} people each member has to pay \n {round((tbill/nu),2)}")
